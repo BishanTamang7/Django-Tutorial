@@ -352,7 +352,7 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 ```
 my_blog_project/
 ├── blog_env/                 # Virtual environment
-├── blog_project/            # Main project settings
+├── core/            # Main project settings
 │   ├── settings.py         # Project configuration
 │   ├── urls.py            # Main URL routing
 │   └── wsgi.py            # WSGI configuration
